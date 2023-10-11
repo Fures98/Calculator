@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'segoe ui';
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dddddd;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 2px 0px 30px 0px;
+}
+.body{
+    border: none;
+    border-radius: 10px;
+    background-color: #dddddd;
+    height: auto;
+    width: 400px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    padding: 5px;
+}
+.LED{
+    border: none;
+    border-radius: 10px;
+    background-color: #777777;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #ffffff;
+    width: 346px;
+    display:inline-block;
+    margin-right: px;
+}
+.LED-opr{
+    border: none;
+    border-radius: 10px;
+    background-color: #777777;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #ffffff;
+    width: 44px;
+    float: right;
+}
+.nums{
+    width: 58%;
+    display: inline-block;
+    margin-top: 5px;
+}
+.oprs{
+    width: 40%;
+    float: right;
+    margin-top: 5px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #777777;
+    height: 70px;
+    width: 32%;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.btn-0{
+    border: none;
+    border-radius: 10px;
+    background-color: #777777;
+    height: 70px;
+    width: 32%;
+    margin-bottom: 5px;
+    color: #ffffff;
+    margin-left: 78px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.btn-opr{
+    border: none;
+    border-radius: 10px;
+    background-color: #777777;
+    height: 70px;
+    width: 48%;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.btn:hover,
+.btn-opr:hover,
+.btn-0:hover{
+    background-color: #666666;
+}
