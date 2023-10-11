@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'segoe ui';
+    font-family: 'helvetica light';
+    font-weight: ;
 }
 .nav{
     width: 100%;
@@ -12,7 +13,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: lighter;
-    margin: 2px 0px 30px 0px;
+    margin: 2px 0px 50px 0px;
 }
 .body{
     border: none;
@@ -71,18 +72,6 @@
     font-size: 25px;
     font-weight: lighter;
 }
-.btn-0{
-    border: none;
-    border-radius: 10px;
-    background-color: #777777;
-    height: 70px;
-    width: 32%;
-    margin-bottom: 5px;
-    color: #ffffff;
-    margin-left: 78px;
-    font-size: 25px;
-    font-weight: lighter;
-}
 .btn-opr{
     border: none;
     border-radius: 10px;
@@ -95,7 +84,6 @@
     font-weight: lighter;
 }
 .btn:hover,
-.btn-opr:hover,
-.btn-0:hover{
+.btn-opr:hover{
     background-color: #666666;
 }

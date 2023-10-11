@@ -9,28 +9,27 @@
             Calculator
         </div>
         <div class="body">
-            <div class="LED">
-                0
-            </div>
-            <div class="LED-opr">
-                +
+            <input type="text" class="LED" id="LED">
+            <div class="LED-opr" id="ldo">
+                
             </div>
             <div class="nums">
-                <button class="btn" id="seven" value="7">7</button>
-                <button class="btn" id="eight" value="8">8</button>
-                <button class="btn" id="nine" value="9">9</button>
-                <button class="btn" id="four" value="4">4</button>
-                <button class="btn" id="five" value="5">5</button>
-                <button class="btn" id="six" value="6">6</button>
-                <button class="btn" id="one" value="1">1</button>
-                <button class="btn" id="two" value="2">2</button>
-                <button class="btn" id="three" value="3">3</button>
-                <button class="btn-0" id="zero" value="0">0</button>
+                <button class="btn" id="seven" value="7" onclick="document.getElementById('LED').value += '7'">7</button>
+                <button class="btn" id="eight" value="8" onclick="document.getElementById('LED').value += '8'">8</button>
+                <button class="btn" id="nine" value="9" onclick="document.getElementById('LED').value += '9'">9</button>
+                <button class="btn" id="four" value="4" onclick="document.getElementById('LED').value += '4'">4</button>
+                <button class="btn" id="five" value="5" onclick="document.getElementById('LED').value += '5'">5</button>
+                <button class="btn" id="six" value="6" onclick="document.getElementById('LED').value += '6'">6</button>
+                <button class="btn" id="one" value="1" onclick="document.getElementById('LED').value += '1'">1</button>
+                <button class="btn" id="two" value="2" onclick="document.getElementById('LED').value += '2'">2</button>
+                <button class="btn" id="three" value="3" onclick="document.getElementById('LED').value += '3'">3</button>
+                <button class="btn" id="ce" style="color: red;">CE</button>
+                <button class="btn" id="zero" value="0" onclick="document.getElementById('LED').value += '0'">0</button>
                 <button class="btn" id="dot" value=".">.</button>
             </div>
             <div class="oprs">
-                <button class="btn-opr" id="open" value="(">(</button>
-                <button class="btn-opr" id="close" value=")">)</button>
+                <button class="btn-opr" id="open" value="(" onclick="document.getElementById('LED').value += '('">(</button>
+                <button class="btn-opr" id="close" value=")" onclick="document.getElementById('LED').value += ')'">)</button>
                 <button class="btn-opr" id="add" value="+">+</button>
                 <button class="btn-opr" id="sub" value="-">-</button>
                 <button class="btn-opr" id="mult" value="*">*</button>
